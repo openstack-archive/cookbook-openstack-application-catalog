@@ -1,0 +1,8 @@
+# COMMON MURANO ENVS
+
+<% if @hash[:enable_glare] %>
+#export MURANO_PACKAGES_SERVICE='glare'
+<% else %>
+#export MURANO_PACKAGES_SERVICE='glance'
+<% end %>
+<% if @hash[:openrc_repo_url] != nil %>export MURANO_REPO_URL='<%= @hash[:openrc_repo_url] %>'<% end %>
