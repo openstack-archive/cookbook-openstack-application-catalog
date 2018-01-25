@@ -1,5 +1,4 @@
 - project:
-    name: openstack/cookbook-openstack-application-catalog
     check:
       jobs:
         - openstack-chef-repo-rake:
