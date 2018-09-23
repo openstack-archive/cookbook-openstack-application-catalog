@@ -8,7 +8,7 @@ using this cookbook in the context of a full OpenStack deployment. Murano is
 installed from packages, creating the default user, tenant, and roles. It also
 registers the application-catalog service and application-catalog endpoint.
 
-http://docs.openstack.org/developer/murano/
+https://docs.openstack.org/murano/latest/
 
 Requirements
 ============
