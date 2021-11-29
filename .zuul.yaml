@@ -1,7 +1,3 @@
 - project:
-    check:
-      jobs:
-        - openstack-chef-repo-rake:
-            voting: false
-        - openstack-chef-repo-integration:
-            voting: false
+    templates:
+      - openstack-chef-jobs
